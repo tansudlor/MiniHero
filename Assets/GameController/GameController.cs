@@ -22,9 +22,6 @@ namespace minihero.game
 
         public GameObject FirstHero;
 
-        public int GridWidth = 16;
-        public int GridHeight = 16;
-
         public int HeroCount = 1;
         public int EnemyCount = 0;
         public int EnemySpawnMin = 1;

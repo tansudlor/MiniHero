@@ -1,14 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using minihero.gameconfig;
 
 namespace minihero.gamestructer
 {
     public class InvertStructer 
     {
         public static InvertStructer Instance { get; private set; }
-
-
         public static InvertStructer GetInstance()
         {
             if (Instance == null)
@@ -25,10 +24,10 @@ namespace minihero.gamestructer
             return vector2;
         }
 
-        public int2 Vector2ToInt2(Vector2 pos,int gridWidth = 16,int gridheight = 16)//Convert vector2 to int2
+        public int2 Vector2ToInt2(Vector2 pos)//Convert vector2 to int2
         {
-            int x = (gridWidth + ((int)pos.x % gridWidth)) % gridWidth;
-            int y = (gridheight + ((int)pos.y % gridWidth)) % gridheight;
+            int x = (GridSize.GridWidth + ((int)pos.x % GridSize.GridWidth)) % GridSize.GridWidth;
+            int y = (GridSize.GridHeight + ((int)pos.y % GridSize.GridWidth)) % GridSize.GridHeight;
             int2 int2 = new int2(x, y);
             return int2;
 

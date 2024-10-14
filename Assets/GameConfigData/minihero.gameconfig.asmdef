@@ -1,9 +1,7 @@
 {
-    "name": "minihero.gamestructer",
-    "rootNamespace": "minihero.gamestructer",
-    "references": [
-        "GUID:a4af30dc30e05d3488de947503e56946"
-    ],
+    "name": "minihero.gameconfig",
+    "rootNamespace": "minihero.gameconfig",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

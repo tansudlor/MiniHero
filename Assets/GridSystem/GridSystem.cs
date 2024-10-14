@@ -3,6 +3,7 @@ using UnityEngine;
 using minihero.gamestructer;
 using minihero.character;
 using minihero.game;
+using minihero.gameconfig;
 
 namespace minihero.grid
 {
@@ -31,9 +32,9 @@ namespace minihero.grid
             gameController.EnemySpawnList = EnemySpawnList;
             gameController.HeroSpawnList = HeroSpawnList;
             //Start Create Grid
-            for (int i = 0; i < gameController.GridWidth; i++)
+            for (int i = 0; i < GridSize.GridWidth; i++)
             {
-                for (int j = 0; j < gameController.GridHeight; j++)
+                for (int j = 0; j < GridSize.GridHeight; j++)
                 {
                     int x = i;
                     int y = j;
@@ -45,8 +46,8 @@ namespace minihero.grid
                 }
             }
             //Set Camera
-            Camera.gameObject.transform.position = new Vector3((gameController.GridWidth / 2), (gameController.GridHeight / 2) - 1f, -10);
-            Camera.orthographicSize = (gameController.GridWidth / 2) + 1.5f;
+            Camera.gameObject.transform.position = new Vector3((GridSize.GridWidth / 2), (GridSize.GridHeight / 2) - 1f, -10);
+            Camera.orthographicSize = (GridSize.GridWidth / 2) + 1.5f;
 
             //Spawn Enemys
             gameController.SpawnEnemy();
