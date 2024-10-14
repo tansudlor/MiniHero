@@ -1,0 +1,21 @@
+{
+    "name": "minihero.controller",
+    "rootNamespace": "minihero.controller",
+    "references": [
+        "GUID:8caec939fc1b12d4e84a278065ce4299",
+        "GUID:28665814a54386644a8f70d4b15a5322",
+        "GUID:32b4bcbe94b29d841960e9a90f684305",
+        "GUID:007b2a06149660b4e9e5e0ff55dde208",
+        "GUID:2aac84de38ee8774683b182f7352caca",
+        "GUID:e9feb90f082438648968a26c337d64a4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

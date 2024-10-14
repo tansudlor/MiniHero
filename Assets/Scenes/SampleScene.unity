@@ -873,12 +873,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2ecc7354975aa94ca93e05b4c5f5e56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GridWidth: 16
-  GridHeight: 16
   Camera: {fileID: 519420031}
   Map: {fileID: 1142055417590488847, guid: 710d40cc960beaf4f84f6d0db3ffd576, type: 3}
   MapParent: {fileID: 236671527}
-  UsedAreaDebug: []
   EnemySpawnList:
   - {fileID: 8831911831584752561, guid: cf1986514dac0904ea103449bb441be5, type: 3}
   HeroSpawnList:
